@@ -1,0 +1,41 @@
+###### Create location #######
+POST http://localhost:3000/location/
+{
+    "longitude": 6.33, 
+    "latitude":2.43, 
+    "user": {
+        "name": "My name",
+        "phoneNumber": "0112333211"
+    }
+}
+
+###### Update locatio ########
+
+PUT http://localhost:3000/location/:id
+{
+    "longitude": 6.33,
+    "latitude":2.43,
+}
+
+
+###### Fetch single location ########
+
+GET http://localhost:3000/location/:id
+
+###### Delete single location ########
+
+DELETE  http://localhost:3000/location/:id
+
+
+###### Fetch all locations ########
+
+GET http://localhost:3000/location/
+
+###### Get distance between locations ########
+
+GET http://localhost:3000/location/distance/:locationId/?latitude=2.333&longitude=2.5555
+
+
+
+
+
