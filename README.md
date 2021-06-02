@@ -7,7 +7,9 @@ MySQL
 
 # Create database
 Create a mysql database
+
 Import the sql schema file located in the /db directory
+
 Change mysql connection string in /prisma/.env
 
 Example :
