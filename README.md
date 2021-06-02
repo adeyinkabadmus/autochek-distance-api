@@ -18,11 +18,19 @@ Example :
 # import database schema 
 # Installation
 
+```bash
 Run npm install
 
 npx prisma introspect
 
 npx prisma generate
+```
+
+# Run server
+
+```bash
+Run npm run start
+```
 
 # Query API
 
