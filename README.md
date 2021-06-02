@@ -49,6 +49,8 @@ An endpoint is required for user update to update the user information but was n
 
 Unit tests were also not written due to time constraints
 
+Appropriate method docs are missing for some methods which are supposed to concise documentation for each of the methods.
+
 # Things of note
 
 There was only dependy injection largely in use and many of the methods/functions were written with the Single responsibility principle mind.
